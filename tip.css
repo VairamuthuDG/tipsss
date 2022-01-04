@@ -1,0 +1,44 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+.box{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content:center;
+    width:4in;
+    height:3.5in;
+    margin-top:2in;
+    margin-left:4in;
+    background-color: bisque;
+    position:relative;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-bottom:2em;
+    
+}
+
+h2{
+    position:absolute;
+    top:0rem;
+    left:5rem;
+}
+
+
+.right-fly{
+    float:right;
+}
+
+
+.calc{
+border-radius: 5%;
+display:block;
+width:80px;
+position:absolute;
+top:15rem;
+left:8rem;
+}
+
